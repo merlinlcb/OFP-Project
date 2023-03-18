@@ -22,6 +22,36 @@ This is an open source foot pedal leveraging the arduino keyboard library to pro
 
 ![ArduinoPinout](https://github.com/merlinlcb/OFP-Project/blob/main/ArduinoPinout.png)
 
+## Usage/Examples
+
+
+[Go Here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/ ) for basic information on using the arduino keyboard library
+
+```c
+//Define your Pedals here
+int pedal1 = 9; 
+int pedal2 = 7; 
+int pedal3 = 5; 
+int pedal4 = 3; 
+
+//if you dont intend to use keypedalX_2 or X_3 set it to 'none'
+
+//Define your Key Presses here
+
+int keypedal1 = KEY_LEFT_GUI;
+int keypedal1_2 = '2';
+int keypedal1_3 = 'none';
+int keypedal2 = KEY_LEFT_GUI;
+int keypedal2_2 = '4';
+int keypedal2_3 = 'none';
+int keypedal3 = KEY_LEFT_GUI;
+int keypedal3_2 = KEY_LEFT_SHIFT;
+int keypedal3_3 = '4';
+int keypedal4 = 'b';
+int keypedal4_2 = 'none';
+int keypedal4_3 = 'none';
+```
+
 ## Authors
 
 - [@merlinlcb](https://github.com/merlinlcb)
