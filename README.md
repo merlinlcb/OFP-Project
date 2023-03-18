@@ -24,20 +24,21 @@ This is an open source foot pedal leveraging the arduino keyboard library to pro
 
 ## Usage/Examples
 
-
-[Go Here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/ ) for basic information on using the arduino keyboard library
-
+- Download [main.ino](https://github.com/merlinlcb/OFP-Project/blob/main/main.ino)
+- Go [Here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/ ) for basic information on using the arduino keyboard library
+- Define your Pedals here
 ```c
-//Define your Pedals here
 int pedal1 = 9; 
 int pedal2 = 7; 
 int pedal3 = 5; 
 int pedal4 = 3; 
+```
 
-//if you dont intend to use keypedalX_2 or X_3 set it to 'none'
 
-//Define your Key Presses here
 
+- Define your Key Presses here
+##### if you dont intend to use keypedalX_2 or X_3 set it to 'none'
+```c
 int keypedal1 = KEY_LEFT_GUI;
 int keypedal1_2 = '2';
 int keypedal1_3 = 'none';
@@ -51,6 +52,7 @@ int keypedal4 = 'b';
 int keypedal4_2 = 'none';
 int keypedal4_3 = 'none';
 ```
+
 
 ## Authors
 
